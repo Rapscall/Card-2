@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Figtree',sans-serif;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+
+#card{
+    max-width: 375px;
+    
+    max-height: 1000px;
+    height: auto;
+    margin: 200px auto;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+}
+
+
+
+img[alt]{
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    
+    border-radius: 10px;
+}
+
+#Learning{
+    width: 25%;
+    font-weight: 900;
+    padding: 5px;
+    background-color: hsl(47, 88%, 63%);
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#date{
+    margin: 20px;
+    margin-left: 30px;
+}
+
+h2{
+    font-weight: 900;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+#lorem{
+    margin: 20px;
+    margin-left: 30px;
+    color: hsl(0, 0%, 50%);
+    line-height: 30px;
+}
+
+#flex-bottom{
+    display: flex;
+    gap:10px;
+    margin:20px;
+}
+
+#flex-bottom h4{
+    padding-top: 10px;
+}
+
+#flex-bottom img{
+    width: 10%;
+    height: auto;
+}
+
+h2:hover{
+    color: rgb(148, 148, 0);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 350px) {
+  #card{
+    width: 80%;
+  }  
+}
+
+
+
+
+
